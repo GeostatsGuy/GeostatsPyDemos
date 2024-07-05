@@ -85,7 +85,7 @@ This package contains 2 parts:
 
 2. **geostatspy.GSLIB** includes reimplimentation of the GSLIB visualizations and low tech wrappers of the numerical methods (note: the low-tech wrapper require access to GSLIB executables).
 
-### The GeostatsPy Authors
+#### The GeostatsPy Authors
 
 The GeostatsPy package is being developed at The University of Texas in the Texas Center for Geostatistics.
 
