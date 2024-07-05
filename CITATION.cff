@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this data repository, please cite it as below."
+authors:
+  - family-names: Pyrcz
+    given-names: Michael
+    orcid:  https://orcid.org/0000-0002-5983-219X 
+    # orcid:
+title: " GeostatsPyDemos: GeostatsPy Python Package for Spatial Data Analytics and Geostatistics Demonstration Workflows Repository"
+# version: 0.0.1
+# doi: 10.5281/zenodo.
+# date-released: 2021-10-13
