@@ -6,7 +6,7 @@
 
 # Cite As:
 
-Pyrcz, M.J., Jo. H., Kupenko, A., Liu, W., Gigliotti, A.E., Salomaki, T., and Santos, J., 2021, GeostatsPy Python Package, PyPI, Python Package Index, https://pypi.org/project/geostatspy/.
+Pyrcz, M.J., 2024, GeostatsPyDemos: Well-doucmented GeostatsPy Python Package for Spatial Data Analytics and Geostatistics Demonstration Workflows Repository (0.0.1). Zenodo. TBD
 
 # Well-doucmented GeostatsPy Python Package for Spatial Data Analytics and Geostatistics Demonstration Workflows 
 
