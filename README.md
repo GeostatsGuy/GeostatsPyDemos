@@ -59,6 +59,8 @@ Common geostatistical workflows that are included:
 * spatial model checking
 * volume variance relations
 
+***
+
 #### Installing GeostatsPy
 
 Firstly, if you haven't installed GeostatsPy, here's the GitHub repository [GeostatsPy GitHub](https://github.com/GeostatsGuy/GeostatsPy/tree/master). GeostatsPy is available on the Python Package Index (PyPI) [GeostatsPy PyPI](https://pypi.org/project/geostatspy/).
@@ -68,6 +70,7 @@ To install GeostatsPy, use pip
 ```console
 pip install geostatspy
 ```
+***
 
 #### Information about the [GeostatsPy Python Package](https://github.com/GeostatsGuy/GeostatsPy) for Spatial Data Analytics and Geostatistics
 
