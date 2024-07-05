@@ -6,7 +6,7 @@
 
 # Cite As:
 
-Pyrcz, M.J., 2024, GeostatsPyDemos: Well-doucmented GeostatsPy Python Package for Spatial Data Analytics and Geostatistics Demonstration Workflows Repository (0.0.1). Zenodo. TBD
+Pyrcz, M.J., 2024, GeostatsPyDemos: Well-documented GeostatsPy Python Package for Spatial Data Analytics and Geostatistics Demonstration Workflows Repository (0.0.1). Zenodo. TBD
 
 # Well-doucmented GeostatsPy Python Package for Spatial Data Analytics and Geostatistics Demonstration Workflows 
 
