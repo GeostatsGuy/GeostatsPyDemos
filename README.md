@@ -83,9 +83,9 @@ Finally, I like to code. I have over 25 years of experience in FORTRAN, C++ and 
 
 This package contains 2 parts:
 
-1. **geostatspy.geostats** includes GSLIB functions rewritten in Python. This currently includes all the variogram, distribution transformations, and spatial estimation and simulation (SGSIM soon) methods. I will continue adding functions to support modeling operations for practical subsurface model cosntruction. 
+1. **geostatspy.geostats** includes GSLIB functions rewritten in Python. This currently includes all the variogram, distribution transformations, and spatial estimation and simulation methods. I will continue adding functions to support modeling operations for practical subsurface model cosntruction. 
 
-2. **geostatspy.GSLIB** includes reimplimentation of the GSLIB visualizations and low tech wrappers of the numerical methods  (note: the low-tech wrapper require access to GSLIB executables).
+2. **geostatspy.GSLIB** includes reimplimentation of the GSLIB visualizations and low tech wrappers of the numerical methods (note: the low-tech wrapper require access to GSLIB executables).
 
 <p>
     <img src="https://github.com/GeostatsGuy/GeostatsPy/blob/master/TCG_color_logo.png" width="220" height="200" />
@@ -93,21 +93,21 @@ This package contains 2 parts:
 
 ### The Authors
 
-This package is being developed at the University of Texas in the Texas Center for Geostatistics.
+This package is being developed at The University of Texas in the Texas Center for Geostatistics.
 
-* **Michael J. Pyrcz, Ph.D., P.Eng.** - associate professor with The University of Texas at Austin. Primary author of the package.
+* **Professor Michael J. Pyrcz, Ph.D., P.Eng.** - professor with The University of Texas at Austin. Primary author of the package.
 
-* **Honggeun Jo** - Ph.D. student working with Michael Pyrcz at The University of Texas at Austin. Author of 3D subroutines, 3D variogram calculation and modeling and wrapper for sgsim for 3D modeling.  Thank you Honggeun!
+* **Professor Honggeun Jo** - assistant professor with Inha University, South Korea. Author of 3D subroutines, 3D variogram calculation and modeling and wrapper for sgsim for 3D modeling and more! Thank you, Professor Jo!
 
-* **Anton Kupenko** - bug fixes, added docstrings, code refractory for PEP8, removed duplicated functions and variables.  Thank you Anton!
+* **Anton Kupenko** - bug fixes, added docstrings, code refractory for PEP8, removed duplicated functions and variables. Thank you, Anton!
 
-* **Wendi Liu** - Ph.D. student working with Michael Pyrcz at The University of Texas at Austin. Author of 3D subroutines and gammabar method.  Also, GSLIB compiles in Mac OSX, and 3D variogram calculation wrapper.  Thank you Wendi!
+* **Wendi Liu, Ph.D.** - while a Ph.D. student working with Michael Pyrcz at The University of Texas at Austin. Author of 3D subroutines and gammabar method. Also, GSLIB compiles in Mac OSX, and 3D variogram calculation wrapper. Thank you, Dr. Wendi Liu!
 
 * **Alex E. Gigliotti** - undergraduate student working with Michael Pyrcz at The University of Texas at Austin. Established unit testing.  Thank you Alex!
 
-* **Travis Salomaki** - Ph.D. student working with Michael Pyrcz at The University of Texas at Austin. Improving package docs.  Thank you Travis!
+* **Travis Salomaki** - as an undergraduate student research project with Michael Pyrcz at The University of Texas at Austin. Improving package docs. Thank you, Travis!
 
-* **Javier Santos** - one of Michael Pyrcz's graduate students contributed the post processing algorithm for summarizing over multiple realizations.  Thank you Javier!
+* **Javier Santos, Ph.D.** - while a Ph.D. student working with Michael Pyrcz at The University of Texas at Austin. Author of the post processing algorithm for summarizing over multiple realizations. Thank you, Javier!
 
 ## Package Inventory
 
