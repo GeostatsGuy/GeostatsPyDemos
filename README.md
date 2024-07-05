@@ -89,7 +89,7 @@ These packages should be available with any modern Python distribution (e.g. htt
 
 If you get a package import error, you may have to first install some of these packages. This can usually be accomplished by opening up a command window on Windows and then typing 'python -m pip install [package-name]'. More assistance is available with the respective package docs.  
 
-#### The Author:
+#### GeostatsPyDemos Repository Author:
 
 ### Michael Pyrcz, Professor, The University of Texas at Austin 
 *Novel Data Analytics, Geostatistics and Machine Learning Subsurface Solutions*
