@@ -75,21 +75,13 @@ Here's some more informaton about GeostatsPy.
 
 The GeostatsPy Package brings GSLIB: Geostatistical Library (Deutsch and Journel, 1998) functions to Python. GSLIB is a practical and extremely robust set of code for building spatial modeling workflows. 
 
-I created the GeostatsPy Package to support my students in my **Data Analytics**, **Geostatistics** and **Machine Learning** courses. I find my students benefit from hands-on opportunities, in fact it is hard to imagine teaching these topics without providing the opportunity to handle the numerical methods and build workflows. Last year, I tried to have them use the original FORTRAN executables and even with support and worked out examples, it was an uphill battle. In addition, all my students and I are now working in Python for our research. Thus, having access to geostatistical methods in Python directly impacts and facilitates the research of my group. 
-
-Finally, I like to code. I have over 25 years of experience in FORTRAN, C++ and Visual Basic programing. This includes frontend (Qt interfaces in C++) and backend development with small and at times very large engineering and geoscience projects. 
-
-### What's Included
+I created the GeostatsPy Package to support my students in my **Data Analytics**, **Geostatistics** and **Machine Learning** courses. I find my students benefit from hands-on opportunities, in fact it is hard to imagine teaching these topics without providing the opportunity to handle the numerical methods and build workflows. Last year, I tried to have them use the original FORTRAN executables and even with support and worked out examples, it was an uphill battle. In addition, all my students and I are now working in Python for our research. Thus, having access to geostatistical methods in Python directly impacts and facilitates the research of my group. Finally, I like to code. I have over 25 years of experience in FORTRAN, C++ and Visual Basic programing. This includes frontend (Qt interfaces in C++) and backend development with small and at times very large engineering and geoscience projects. 
 
 This package contains 2 parts:
 
 1. **geostatspy.geostats** includes GSLIB functions rewritten in Python. This currently includes all the variogram, distribution transformations, and spatial estimation and simulation methods. I will continue adding functions to support modeling operations for practical subsurface model cosntruction. 
 
 2. **geostatspy.GSLIB** includes reimplimentation of the GSLIB visualizations and low tech wrappers of the numerical methods (note: the low-tech wrapper require access to GSLIB executables).
-
-<p>
-    <img src="https://github.com/GeostatsGuy/GeostatsPy/blob/master/TCG_color_logo.png" width="220" height="200" />
-</p>
 
 ### The Authors
 
