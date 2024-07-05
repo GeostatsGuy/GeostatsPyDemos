@@ -85,9 +85,9 @@ This package contains 2 parts:
 
 2. **geostatspy.GSLIB** includes reimplimentation of the GSLIB visualizations and low tech wrappers of the numerical methods (note: the low-tech wrapper require access to GSLIB executables).
 
-### The Authors
+### The GeostatsPy Authors
 
-This package is being developed at The University of Texas in the Texas Center for Geostatistics.
+The GeostatsPy package is being developed at The University of Texas in the Texas Center for Geostatistics.
 
 * **Professor Michael J. Pyrcz, Ph.D., P.Eng.** - professor with The University of Texas at Austin. Primary author of the package.
 
@@ -103,11 +103,11 @@ This package is being developed at The University of Texas in the Texas Center f
 
 * **Javier Santos, Ph.D.** - while a Ph.D. student working with Michael Pyrcz at The University of Texas at Austin. Author of the post processing algorithm for summarizing over multiple realizations. Thank you, Javier!
 
-## Package Inventory
+#### Package Inventory
 
 Here's a list and some details on each of the functions available.
 
-### geostatspy.GSLIB Functions
+##### geostatspy.GSLIB Functions
 
 Utilities to support moving between Python DataFrames and ndarrays, Data Tables, Gridded Data and Models in Geo-EAS file format (standard to GSLIB):
 
@@ -157,7 +157,7 @@ Spatial Model Resampling
 29. **random_sample** - extract random samples from a 2D spatial model  
 30. **DataFrame2ndarray** - convent spatial point data in a DataFrame to a sparse ndarray grid
 
-### geostatspy.geostats Functions
+##### geostatspy.geostats Functions
 
 Numerical methods in GSLIB (Deutsch and Journel, 1998) translated to Python:
 
@@ -194,115 +194,32 @@ These packages should be available with any modern Python distribution (e.g. htt
 
 If you get a package import error, you may have to first install some of these packages. This can usually be accomplished by opening up a command window on Windows and then typing 'python -m pip install [package-name]'. More assistance is available with the respective package docs.  
 
-### Explanation of GeostatsPy
+#### The Author:
 
-GeostatsPy includes functions that run 2D workflows from GSLIB in Python (i.e. low tech wrappers), Python translations and reimplementations of GSLIB methods, along with utilities to move between GSLIB's Geo-EAS data sets and Pandas DataFrames, and grids and 2D NumPy ndarrays respectively and other useful operations such as resampling from regular datasets and rescaling distributions.  
+### Michael Pyrcz, Professor, The University of Texas at Austin 
+*Novel Data Analytics, Geostatistics and Machine Learning Subsurface Solutions*
 
-The reimplementations as of now include NSCORE, GAM, GAMV, VMODEL, DECLUS, KB2D, IK2D and SGSIM etc. and most of the visualizations using the standard GSLIB parametric inputs and matplotlib back end. The low tech wrappers simply write the GSLIB parameters, run the GSLIB executables and then read in the GSLIB output. This allows for construction of Python workflows with the very robust GSLIB programs.
+With over 17 years of experience in subsurface consulting, research and development, Michael has returned to academia driven by his passion for teaching and enthusiasm for enhancing engineers' and geoscientists' impact in subsurface resource development. 
 
-#### Why make this package? 
+For more about Michael check out these links:
 
-I wanted a set of functions to utilize the very robust and numerically efficient GSLIB: Geostatistical Library (Deutsch and Journel, 1998) in Python. While there are other current solutions in Python, I found that these solutions are either proprietary (not open source), not maintained or missing vital functionality; therefore, I have not been able to use these other solutions to teach modeling workflows to students with little or no programming experience. Imagine getting 55 undergraduate students to resort back to a previous version of Python because a single dependency of an available package is not available in a current Python version. Image a student about to submit an assignment, and the code won't run immediately before submission because of an update to a dependency. I need methods for my students that just work, are reliable and do not require students to complete a more complicated environment setup.
+#### [Twitter](https://twitter.com/geostatsguy) | [GitHub](https://github.com/GeostatsGuy) | [Website](http://michaelpyrcz.com) | [GoogleScholar](https://scholar.google.com/citations?user=QVZ20eQAAAAJ&hl=en&oi=ao) | [Book](https://www.amazon.com/Geostatistical-Reservoir-Modeling-Michael-Pyrcz/dp/0199731446) | [YouTube](https://www.youtube.com/channel/UCLqEr-xV-ceHdXXXrTId5ig)  | [LinkedIn](https://www.linkedin.com/in/michael-pyrcz-61a648a1)
 
-Deutsch and Journel (1998) gave the community GSLIB, an extremely robust and flexible set of tools to build spatial modeling workflows. I have spent almost 20 years working with GSLIB along with a wide variety of subsurface modeling software. The powerful flexibility of GSLIB may be lost in methods that attempt to 'can' the inputs and parameters into complicated and hard to work with objects or attempt to combine the programs into a single program. I love open source for teaching the theory because students must see under the hood! The concept of basic building blocks and simple, common inputs is essential to GSLIB. I tried to preserve this by putting together functions with the same conventions as GSLIB, the result is a set of functions that (1) are practical for my students to use and (2) will move the GSLIB veterans into Python workflow construction. Honestly, I did nothing original, but that was my intention.  
+#### Want to Work Together?
 
-I'm a very busy new professor, I'll keep adding more functionality as I have time.
+I hope this content is helpful to those that want to learn more about subsurface modeling, data analytics and machine learning. Students and working professionals are welcome to participate.
 
-#### More on GSLIB
+* Want to invite me to visit your company for training, mentoring, project review, workflow design and / or consulting? I'd be happy to drop by and work with you! 
 
-The GSLIB source is available from GSLIB.com. If you would like to get the executables, ready to use without any need to compile them, go to GSLIB.com for Windows and Linux. I failed to find any Mac OS X executables so my Ph.D. student Wendi Liu compiled them for us (thank you Wendi!) and we have posted them here https://github.com/GeostatsGuy/GSLIB_MacOS. If folks on Windows are encountering missing DLL's, I could post static builds. Wendi provided instructions to help Mac users with missing DLL issues at that same location above.
+* Interested in partnering, supporting my graduate student research or my Subsurface Data Analytics and Machine Learning consortium (co-PIs including Profs. Foster, Torres-Verdin and van Oort)? My research combines data analytics, stochastic modeling and machine learning theory with practice to develop novel methods and workflows to add value. We are solving challenging subsurface problems!
 
-#### Making Images 
+* I can be reached at mpyrcz@austin.utexas.edu.
 
-The graphical / visualization methods have 2 variants. '_ST' specifies that function is suitable for building subplots (stacked / combined images) while those without '_ST' are for stand-alone images (an image is returned with the function call and an image file is saved in the working directory). The resolution and image file type are specified at the top of the GeostatPy.GSLIB functions.   
-
-#### Assistance Welcome
-
-Found an issue (I'm sure there are issues!)? Got a new idea? Want to work on this? Let me know, submit revisions, I'm happy to collaborate.
-
-### Package Examples
-
-There are many example workflow examples available on my GitHub account at https://github.com/GeostatsGuy/, specifically the GeostatsPy https://github.com/GeostatsGuy/GeostatsPy and PythonNumericalDemos  https://github.com/GeostatsGuy/PythonNumericalDemos repositories. Most of these examples simply placed the code for the required functions directly in the Jupyter notebook. These were made before this Package was made as I was developing all the functions individually. To use these examples just make these modifications:
-
-1. install geostatspy with the command *pip install geostatspy*. I used the terminal Anaconda Navigator under the environments tab to make sure the package was accessible to Jupyter Notebooks.  
-2. add *import geostatspy.GSLIB as GSLIB* and *import geostatspy.geostats as geostats* to the top of the workflow 
-3. add *GSLIB.* or *geostats.* as a 'prefex to the GeostatsPy functions based on which set they belong to.
-
-Over the next month I will update all workflows to use the geostatspy package instead of pasting code into the workflows. 
-
-Here's a simple exaple of declustering with the geostatspy package. It looks long because we include making a synthetic dataset, dropping samples to impose a sampling bias, declustering and all the visualization and diagnostics.
-
-```python
-import geostatspy.GSLIB as GSLIB                          # GSLIB utilities, viz and wrapped functions
-import geostatspy.geostats as geostats                    # GSLIB converted to Python
-import matplotlib.pyplot as plt                           # plotting
-import scipy.stats                                        # summary stats of ndarrays
-
-# Make a 2d simulation
-nx = 100; ny = 100; cell_size = 10                        # grid number of cells and cell size
-xmin = 0.0; ymin = 0.0;                                   # grid origin
-xmax = xmin + nx * cell_size; ymax = ymin + ny * cell_size# calculate the extent of model
-seed = 74073                                              # random number seed  for stochastic simulation    
-range_max = 1800; range_min = 500; azimuth = 65           # Porosity variogram ranges and azimuth
-vario = GSLIB.make_variogram(0.0,nst=1,it1=1,cc1=1.0,azi1=65,hmaj1=1800,hmin1=500) # assume variogram model
-mean = 10.0; stdev = 2.0                                  # Porosity mean and standard deviation
-vmin = 4; vmax = 16; cmap = plt.cm.plasma                 # color min and max and using the plasma color map
-
-# calculate a stochastic realization with standard normal distribution
-sim = GSLIB.sgsim_uncond(1,nx,ny,cell_size,seed,vario,"simulation") # 2d unconditional simulation
-sim = GSLIB.affine(sim,mean,stdev)                        # correct the distribution to a target mean and standard deviation
-
-# extract samples from the 2D realization 
-sampling_ncell = 10  # sample every 10th node from the model
-samples = GSLIB.regular_sample(sim,xmin,xmax,ymin,ymax,sampling_ncell,10,10,nx,ny,'Realization')
-
-# remove samples to create a sample bias (preferentially removed low values to bias high)
-samples_cluster = samples.drop([80,79,78,73,72,71,70,65,64,63,61,57,56,54,53,47,45,42]) # this removes specific rows (samples)
-samples_cluster = samples_cluster.reset_index(drop=True)  # we reset and remove the index (it is not sequential anymore)
-GSLIB.locpix(sim,xmin,xmax,ymin,ymax,cell_size,vmin,vmax,samples_cluster,'X','Y','Realization','Porosity Realization and Regular Samples','X(m)','Y(m)','Porosity (%)',cmap,"Por_Samples")
-
-# apply the declus program convert to Python
-wts,cell_sizes,averages = geostats.declus(samples_cluster,'X','Y','Realization',iminmax=1,noff=5,ncell=100,cmin=1,cmax=2000)
-samples_cluster['wts'] = wts            # add the weights to the sample data
-samples_cluster.head()
-
-# plot the results and diagnostics for the declustering
-plt.subplot(321)
-GSLIB.locmap_st(samples_cluster,'X','Y','wts',xmin,xmax,ymin,ymax,0.0,2.0,'Declustering Weights','X (m)','Y (m)','Weights',cmap)
-
-plt.subplot(322)
-GSLIB.hist_st(samples_cluster['wts'],0.0,2.0,log=False,cumul=False,bins=20,weights=None,xlabel="Weights",title="Declustering Weights")
-plt.ylim(0.0,20)
-
-plt.subplot(323)
-GSLIB.hist_st(samples_cluster['Realization'],0.0,20.0,log=False,cumul=False,bins=20,weights=None,xlabel="Porosity",title="Naive Porosity")
-plt.ylim(0.0,20)
-
-plt.subplot(324)
-GSLIB.hist_st(samples_cluster['Realization'],0.0,20.0,log=False,cumul=False,bins=20,weights=samples_cluster['wts'],xlabel="Porosity",title="Naive Porosity")
-plt.ylim(0.0,20)
-
-# Plot the declustered mean vs. cell size to check the cell size selection
-plt.subplot(325)
-plt.scatter(cell_sizes,averages, c = "black", marker='o', alpha = 0.2, edgecolors = "none")
-plt.xlabel('Cell Size (m)')
-plt.ylabel('Porosity Average (%)')
-plt.title('Porosity Average vs. Cell Size')
-plt.ylim(8,12)
-plt.xlim(0,2000)
-
-print(scipy.stats.describe(wts))
-
-plt.subplots_adjust(left=0.0, bottom=0.0, right=2.0, top=3.5, wspace=0.2, hspace=0.2)
-plt.show()
-
-```
-I also have various lecture notes, demonstrations and example workflows on GitHub (see link below), and some tutorials on my YouTube channel (see link below). I will continue to add more.  I'm just getting started,
+I'm always happy to discuss,
 
 *Michael*
 
-Michael Pyrcz, Ph.D., P.Eng. Professor, Cockrell School of Engineering, The Jackson School of Geosciences, The University of Texas at Austin
+Michael Pyrcz, Ph.D., P.Eng. Professor, Cockrell School of Engineering and The Jackson School of Geosciences, The University of Texas at Austin
 
 #### More Resources Available at: [Twitter](https://twitter.com/geostatsguy) | [GitHub](https://github.com/GeostatsGuy) | [Website](http://michaelpyrcz.com) | [GoogleScholar](https://scholar.google.com/citations?user=QVZ20eQAAAAJ&hl=en&oi=ao) | [Book](https://www.amazon.com/Geostatistical-Reservoir-Modeling-Michael-Pyrcz/dp/0199731446) | [YouTube](https://www.youtube.com/channel/UCLqEr-xV-ceHdXXXrTId5ig)  | [LinkedIn](https://www.linkedin.com/in/michael-pyrcz-61a648a1)
-
 
