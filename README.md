@@ -180,7 +180,7 @@ Numerical methods in GSLIB (Deutsch and Journel, 1998) translated to Python:
 
 More functionality will be added soon.
 
-### Package Dependencies
+#### Package Dependencies
 
 The functions rely on the following packages:
 
