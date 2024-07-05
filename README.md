@@ -6,9 +6,9 @@
 
 # Cite As:
 
-Pyrcz, M.J., 2024, GeostatsPyDemos: Well-documented GeostatsPy Python Package for Spatial Data Analytics and Geostatistics Demonstration Workflows Repository (0.0.1). Zenodo. TBD
+Pyrcz, M.J., 2024, GeostatsPyDemos: GeostatsPy Python Package for Spatial Data Analytics and Geostatistics Demonstration Workflows Repository (0.0.1). Zenodo. TBD
 
-# Well-documented GeostatsPy Python Package for Spatial Data Analytics and Geostatistics Demonstration Workflows 
+# GeostatsPy Python Package for Spatial Data Analytics and Geostatistics Demonstration Workflows 
 
 Often when I use a brandnew Python package I have issues getting started. The one thing that I really appreciate is demonstration examples for common workflows with the package! So to help folks use GeostatsPy I developed well-documented workflows for all the common workflows that use all the functionality in the GeostatsPy package. I hope this is helpful. 
 
