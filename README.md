@@ -1,24 +1,75 @@
-<p>
+<h1 align="center"<p>
     <img src="https://github.com/GeostatsGuy/GeostatsPy/blob/master/geostatspy_logo.png?raw=true" width="200" height="200" />
-</p>
+</p></h1>
 
 [![Documentation Status](https://readthedocs.org/projects/geostatspy/badge/?version=latest)](https://geostatspy.readthedocs.io/en/latest/?badge=latest)
 
-# Cite As:
+<h1 align="center">GeostatsPyDemos: GeostatsPy Python Package for Spatial Data Analytics and Geostatistics Demonstration Workflows Repository (0.0.1)</h1>
+
+<h3 align="center">Interactive dashboards to help you over the intellectual hurdles of data science!</h3>
+
+*It is challenging to learn a new Python package. For me, great examples for common workflows are crtical. So I got carried away with over 40 well-documented demonstration workflows that apply GeostatsPy to accomplish To support my students in my **Data Analytics and Geostatistics**, **Spatial Data Analytics** and **Machine Learning** courses and anyone else learning data analytics and machine learning, I have developed a set of Python interactive dashboards. When students struggle with a concept I make a new interactive dashboard so they can learn by playing with the statistics, models or theoretical concepts!* 
+
+### Michael Pyrcz, Professor, The University of Texas at Austin, Data Analytics, Geostatistics and Machine Learning 
+#### [Twitter](https://twitter.com/geostatsguy) | [GitHub](https://github.com/GeostatsGuy) | [Website](http://michaelpyrcz.com) | [GoogleScholar](https://scholar.google.com/citations?user=QVZ20eQAAAAJ&hl=en&oi=ao) | [Book](https://www.amazon.com/Geostatistical-Reservoir-Modeling-Michael-Pyrcz/dp/0199731446) | [YouTube](https://www.youtube.com/channel/UCLqEr-xV-ceHdXXXrTId5ig)  | [LinkedIn](https://www.linkedin.com/in/michael-pyrcz-61a648a1)
+
+***
+
+### Cite As:
 
 Pyrcz, M.J., 2024, GeostatsPyDemos: GeostatsPy Python Package for Spatial Data Analytics and Geostatistics Demonstration Workflows Repository (0.0.1). Zenodo. https://zenodo.org/doi/10.5281/zenodo.12667035
 
 [![DOI](https://zenodo.org/badge/777871341.svg)](https://zenodo.org/doi/10.5281/zenodo.12667035)
 
-# GeostatsPy Python Package for Spatial Data Analytics and Geostatistics Demonstration Workflows 
+***
 
-Often when I use a brandnew Python package I have issues getting started. The one thing that I really appreciate is demonstration examples for common workflows with the package! So to help folks use GeostatsPy I developed well-documented workflows for all the common workflows that use all the functionality in the GeostatsPy package. I hope this is helpful. 
+#### Setup
+
+A minimum environment includes:
+
+* Python 3.7.10 - due to the depdendency of GeostatsPy on the Numba package for code acceleration
+* GeostatsPy - I am continuously testing these workflow with the most current version, [GeostatsPy](https://pypi.org/project/geostatspy/)(Pyrcz et al., 2021)
+* MatPlotLib - plotting
+* NumPy - gridded data and array math
+* Pandas - tabulated data
+* SciPy - statistics module
+
+The required datasets are available in the [GeoDataSets](https://github.com/GeostatsGuy/GeoDataSets) repository and linked in the workflows.
+
+#### Repository Summary
+
+More than 40 well-documented demonstration workflow for common geostatistical workflows with GeostatsPy. 
+
+* utilizing synthetic data from my [GeoDataSets](https://github.com/GeostatsGuy/GeoDataSets) repository
+* small and often 2D examples for fast run times and ease of interpretation
+* often used and cited in my courses for repeatable educational content
+
+Common geostatistical workflows that are included:
+
+* data visualization
+* distribution transformation
+* spatial data debiasing with descustering
+* spatial continuity calculation and modeling with variograms
+* spatial estimation
+* spatial trend modeling
+* spatial simulation
+* indicator based estimation and simulation
+* cosimulation with secondary data
+* summarization over multiple simulated realizations
+* spatial model checking
+* volume variance relations
+
+#### Installing GeostatsPy
 
 Firstly, if you haven't installed GeostatsPy, here's the GitHub repository [GeostatsPy GitHub](https://github.com/GeostatsGuy/GeostatsPy/tree/master). GeostatsPy is available on the Python Package Index (PyPI) [GeostatsPy PyPI](https://pypi.org/project/geostatspy/).
 
 To install GeostatsPy, use pip
 
+```console
 pip install geostatspy
+```
+
+#### Information about the [GeostatsPy Python Package](https://github.com/GeostatsGuy/GeostatsPy) for Spatial Data Analytics and Geostatistics
 
 Here's some more informaton about GeostatsPy.
 
