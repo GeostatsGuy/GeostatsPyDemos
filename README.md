@@ -72,6 +72,52 @@ pip install geostatspy
 ```
 ***
 
+#### GeostatsPy Package Dependencies
+
+The functions rely on the following packages:
+
+1. **numpy** - for ndarrays
+2. **pandas** - for DataFrames
+3. **numpy.linalg** - for linear algebra
+4. **numba** - for numerical speed up
+5. **scipy** - for fast nearest neighbor search
+6. **matplotlib.pyplot** - for plotting
+7. **tqdm** - for progress bar
+8. **statsmodels** - for weighted (debiased) statistics                
+
+These packages should be available with any modern Python distribution (e.g. https://www.anaconda.com/download/).
+
+If you get a package import error, you may have to first install some of these packages. This can usually be accomplished by opening up a command window on Windows and then typing 'python -m pip install [package-name]'. More assistance is available with the respective package docs.  
+
+#### The Author:
+
+### Michael Pyrcz, Professor, The University of Texas at Austin 
+*Novel Data Analytics, Geostatistics and Machine Learning Subsurface Solutions*
+
+With over 17 years of experience in subsurface consulting, research and development, Michael has returned to academia driven by his passion for teaching and enthusiasm for enhancing engineers' and geoscientists' impact in subsurface resource development. 
+
+For more about Michael check out these links:
+
+#### [Twitter](https://twitter.com/geostatsguy) | [GitHub](https://github.com/GeostatsGuy) | [Website](http://michaelpyrcz.com) | [GoogleScholar](https://scholar.google.com/citations?user=QVZ20eQAAAAJ&hl=en&oi=ao) | [Book](https://www.amazon.com/Geostatistical-Reservoir-Modeling-Michael-Pyrcz/dp/0199731446) | [YouTube](https://www.youtube.com/channel/UCLqEr-xV-ceHdXXXrTId5ig)  | [LinkedIn](https://www.linkedin.com/in/michael-pyrcz-61a648a1)
+
+#### Want to Work Together?
+
+I hope this content is helpful to those that want to learn more about subsurface modeling, data analytics and machine learning. Students and working professionals are welcome to participate.
+
+* Want to invite me to visit your company for training, mentoring, project review, workflow design and / or consulting? I'd be happy to drop by and work with you! 
+
+* Interested in partnering, supporting my graduate student research or my Subsurface Data Analytics and Machine Learning consortium (co-PIs including Profs. Foster, Torres-Verdin and van Oort)? My research combines data analytics, stochastic modeling and machine learning theory with practice to develop novel methods and workflows to add value. We are solving challenging subsurface problems!
+
+* I can be reached at mpyrcz@austin.utexas.edu.
+
+I'm always happy to discuss,
+
+*Michael*
+
+Michael Pyrcz, Ph.D., P.Eng. Professor, Cockrell School of Engineering and The Jackson School of Geosciences, The University of Texas at Austin
+
+#### More Resources Available at: [Twitter](https://twitter.com/geostatsguy) | [GitHub](https://github.com/GeostatsGuy) | [Website](http://michaelpyrcz.com) | [GoogleScholar](https://scholar.google.com/citations?user=QVZ20eQAAAAJ&hl=en&oi=ao) | [Book](https://www.amazon.com/Geostatistical-Reservoir-Modeling-Michael-Pyrcz/dp/0199731446) | [YouTube](https://www.youtube.com/channel/UCLqEr-xV-ceHdXXXrTId5ig)  | [LinkedIn](https://www.linkedin.com/in/michael-pyrcz-61a648a1)
+
 #### Information about the [GeostatsPy Python Package](https://github.com/GeostatsGuy/GeostatsPy) for Spatial Data Analytics and Geostatistics
 
 The GeostatsPy Package brings GSLIB: Geostatistical Library (Deutsch and Journel, 1998) functions to Python. GSLIB is a practical and extremely robust set of code for building spatial modeling workflows. 
@@ -179,50 +225,3 @@ Numerical methods in GSLIB (Deutsch and Journel, 1998) translated to Python:
 43. **postsim** - GSLIB's postsim program reimplimented for summarizing over multiple realizations
 
 More functionality will be added soon.
-
-#### Package Dependencies
-
-The functions rely on the following packages:
-
-1. **numpy** - for ndarrays
-2. **pandas** - for DataFrames
-3. **numpy.linalg** - for linear algebra
-4. **numba** - for numerical speed up
-5. **scipy** - for fast nearest neighbor search
-6. **matplotlib.pyplot** - for plotting
-7. **tqdm** - for progress bar
-8. **statsmodels** - for weighted (debiased) statistics                
-
-These packages should be available with any modern Python distribution (e.g. https://www.anaconda.com/download/).
-
-If you get a package import error, you may have to first install some of these packages. This can usually be accomplished by opening up a command window on Windows and then typing 'python -m pip install [package-name]'. More assistance is available with the respective package docs.  
-
-#### The Author:
-
-### Michael Pyrcz, Professor, The University of Texas at Austin 
-*Novel Data Analytics, Geostatistics and Machine Learning Subsurface Solutions*
-
-With over 17 years of experience in subsurface consulting, research and development, Michael has returned to academia driven by his passion for teaching and enthusiasm for enhancing engineers' and geoscientists' impact in subsurface resource development. 
-
-For more about Michael check out these links:
-
-#### [Twitter](https://twitter.com/geostatsguy) | [GitHub](https://github.com/GeostatsGuy) | [Website](http://michaelpyrcz.com) | [GoogleScholar](https://scholar.google.com/citations?user=QVZ20eQAAAAJ&hl=en&oi=ao) | [Book](https://www.amazon.com/Geostatistical-Reservoir-Modeling-Michael-Pyrcz/dp/0199731446) | [YouTube](https://www.youtube.com/channel/UCLqEr-xV-ceHdXXXrTId5ig)  | [LinkedIn](https://www.linkedin.com/in/michael-pyrcz-61a648a1)
-
-#### Want to Work Together?
-
-I hope this content is helpful to those that want to learn more about subsurface modeling, data analytics and machine learning. Students and working professionals are welcome to participate.
-
-* Want to invite me to visit your company for training, mentoring, project review, workflow design and / or consulting? I'd be happy to drop by and work with you! 
-
-* Interested in partnering, supporting my graduate student research or my Subsurface Data Analytics and Machine Learning consortium (co-PIs including Profs. Foster, Torres-Verdin and van Oort)? My research combines data analytics, stochastic modeling and machine learning theory with practice to develop novel methods and workflows to add value. We are solving challenging subsurface problems!
-
-* I can be reached at mpyrcz@austin.utexas.edu.
-
-I'm always happy to discuss,
-
-*Michael*
-
-Michael Pyrcz, Ph.D., P.Eng. Professor, Cockrell School of Engineering and The Jackson School of Geosciences, The University of Texas at Austin
-
-#### More Resources Available at: [Twitter](https://twitter.com/geostatsguy) | [GitHub](https://github.com/GeostatsGuy) | [Website](http://michaelpyrcz.com) | [GoogleScholar](https://scholar.google.com/citations?user=QVZ20eQAAAAJ&hl=en&oi=ao) | [Book](https://www.amazon.com/Geostatistical-Reservoir-Modeling-Michael-Pyrcz/dp/0199731446) | [YouTube](https://www.youtube.com/channel/UCLqEr-xV-ceHdXXXrTId5ig)  | [LinkedIn](https://www.linkedin.com/in/michael-pyrcz-61a648a1)
-
