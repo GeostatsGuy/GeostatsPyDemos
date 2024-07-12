@@ -23,6 +23,23 @@ Pyrcz, M.J., 2024, GeostatsPyDemos: GeostatsPy Python Package for Spatial Data A
 
 ***
 
+#### Recent Updates
+
+Here's some highlights from recent updates:
+
+##### What's New with Version 0.2
+
+I spent quite a bit of time checking, updating and improving all of the workflows. 
+
+* update to date with GeostatsPy v0.0.68
+* improve documentation with concepts and theory from my courses to motivate the workflows
+* improve code comments
+* improve data and model visualization
+
+I'm quite happy with the current state. I feel that this set of well-documented workflow for spatial data analytics and geostatistics in Python with GeostatsPy now lives up to its goal - to launch anyone into building spatial data analytics and geostatistics workflow with GeostatsPy! I'm stoked to help out, Michael
+
+***
+
 #### Setup
 
 A minimum environment includes:
