@@ -27,7 +27,7 @@ Pyrcz, M.J., 2024, GeostatsPyDemos: GeostatsPy Python Package for Spatial Data A
 
 Here's some highlights from recent updates:
 
-##### What's New with Version 0.2
+##### What's New with Version 0.0.1
 
 I spent quite a bit of time checking, updating and improving all of the workflows. 
 
