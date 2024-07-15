@@ -6,7 +6,7 @@
 
 <h1 align="center">GeostatsPyDemos: GeostatsPy Python Package for Spatial Data Analytics and Geostatistics Demonstration Workflows Repository (0.0.1)</h1>
 
-<h3 align="center">Interactive dashboards to help you over the intellectual hurdles of data science!</h3>
+<h3 align="center">Approximately 40 Well-Documented Spatial Data Analytics and Geostatistics Workflows with the GeostatsPy Package!</h3>
 
 *It is challenging to learn a new Python package. For me, great examples for common workflows are crtical. So I built out over 40 well-documented demonstration workflows that apply GeostatsPy to accomplish common spatial modeling tasks to support my students in my **Data Analytics and Geostatistics**, **Spatial Data Analytics** and **Machine Learning** courses and anyone else learning data analytics and machine learning.* 
 
